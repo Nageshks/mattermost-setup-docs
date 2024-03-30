@@ -126,6 +126,7 @@ now close the file and execute the following commands to start mattermost in bac
 sudo systemctl daemon-reload
 sudo systemctl status mattermost.service
 sudo systemctl start mattermost.service
+sudo service mattermost start
 sudo systemctl enable mattermost.service
 ```
 
